@@ -2,6 +2,10 @@
 name = "plz"
 version = "0.1.0"
 edition = "2024"
+description = "Please - A polite package manager"
+authors = ["Your Name <your.email@example.com>"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/rust-plz/plz"
 
 [dependencies]
 clap = "4.5.43"

@@ -1,0 +1,159 @@
+[
+  {
+    "name": "curl",
+    "version": "8.5.0-2ubuntu10.6",
+    "section": "web",
+    "priority": "optional",
+    "architecture": "amd64",
+    "origin": "Ubuntu",
+    "installed_size": "534 kB",
+    "download_size": "226 kB",
+    "maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+    "description": "command line tool for transferring data with URL syntax",
+    "homepage": "https://curl.se/",
+    "depends": [
+      "libc6 (>= 2.34)",
+      "libcurl4t64 (= 8.5.0-2ubuntu10.6)", 
+      "zlib1g (>= 1:1.1.4)"
+    ],
+    "installed": true
+  },
+  {
+    "name": "git",
+    "version": "1:2.43.0-1ubuntu7.3",
+    "section": "vcs",
+    "priority": "optional", 
+    "architecture": "amd64",
+    "origin": "Ubuntu",
+    "installed_size": "22.2 MB",
+    "download_size": "3.680 kB",
+    "maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+    "description": "fast, scalable, distributed revision control system",
+    "homepage": "https://git-scm.com/",
+    "depends": [
+      "libc6 (>= 2.38)",
+      "libcurl3t64-gnutls (>= 7.56.1)",
+      "libexpat1 (>= 2.0.1)",
+      "libpcre2-8-0 (>= 10.34)",
+      "zlib1g (>= 1:1.2.2)",
+      "perl",
+      "liberror-perl",
+      "git-man (>> 1:2.43.0)",
+      "git-man (<< 1:2.43.0-.)"
+    ],
+    "recommends": [
+      "ca-certificates",
+      "patch", 
+      "less",
+      "ssh-client"
+    ],
+    "installed": true
+  },
+  {
+    "name": "vim",
+    "version": "2:9.1.0016-1ubuntu7.8",
+    "section": "editors",
+    "priority": "optional",
+    "architecture": "amd64",
+    "origin": "Ubuntu",
+    "installed_size": "4.230 kB",
+    "download_size": "1.881 kB",
+    "maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+    "description": "Vi IMproved - enhanced vi editor",
+    "homepage": "https://www.vim.org/",
+    "depends": [
+      "vim-common (= 2:9.1.0016-1ubuntu7.8)",
+      "vim-runtime (= 2:9.1.0016-1ubuntu7.8)",
+      "libacl1 (>= 2.2.23)",
+      "libc6 (>= 2.38)",
+      "libgpm2 (>= 1.20.7)",
+      "libpython3.12t64 (>= 3.12.1)",
+      "libselinux1 (>= 3.1~)",
+      "libsodium23 (>= 1.0.14)",
+      "libtinfo6 (>= 6)"
+    ],
+    "suggests": [
+      "ctags",
+      "vim-doc", 
+      "vim-scripts"
+    ],
+    "installed": true
+  },
+  {
+    "name": "htop",
+    "version": "3.3.0-4build1",
+    "section": "utils",
+    "priority": "optional",
+    "architecture": "amd64",
+    "origin": "Ubuntu",
+    "installed_size": "434 kB", 
+    "download_size": "171 kB",
+    "maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+    "description": "interactive processes viewer",
+    "homepage": "https://htop.dev/",
+    "depends": [
+      "libc6 (>= 2.38)",
+      "libncursesw6 (>= 6)",
+      "libnl-3-200 (>= 3.2.7)",
+      "libnl-genl-3-200 (>= 3.2.7)",
+      "libtinfo6 (>= 6)"
+    ],
+    "suggests": [
+      "lm-sensors",
+      "lsof",
+      "strace"
+    ],
+    "installed": true
+  },
+  {
+    "name": "firefox",
+    "version": "133.0.3-0ubuntu0.24.04.1",
+    "section": "web",
+    "priority": "optional",
+    "architecture": "amd64",
+    "origin": "Ubuntu",
+    "installed_size": "266 MB",
+    "download_size": "58.2 MB", 
+    "maintainer": "Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>",
+    "description": "Mozilla Firefox web browser",
+    "homepage": "https://www.mozilla.org/firefox/",
+    "depends": [
+      "debianutils (>= 1.16)",
+      "fontconfig",
+      "libasound2 (>= 1.0.16)",
+      "libatk1.0-0 (>= 1.12.4)",
+      "libc6 (>= 2.38)",
+      "libcairo2 (>= 1.10.0)",
+      "libdbus-1-3 (>= 1.9.14)",
+      "libffi8 (>= 3.4)",
+      "libfontconfig1 (>= 2.12.6)",
+      "libfreetype6 (>= 2.2.1)",
+      "libgcc-s1 (>= 7)",
+      "libgdk-pixbuf-2.0-0 (>= 2.22.0)",
+      "libglib2.0-0t64 (>= 2.31.8)",
+      "libgtk-3-0t64 (>= 3.4)",
+      "libharfbuzz0b (>= 0.6.0)",
+      "libpango-1.0-0 (>= 1.14.0)",
+      "libstdc++6 (>= 11)",
+      "libx11-6",
+      "libx11-xcb1 (>= 2:1.8.7)",
+      "libxcb1 (>= 1.9.2)",
+      "libxcomposite1 (>= 1:0.4.4-1)",
+      "libxcursor1 (>> 1.1.2)",
+      "libxdamage1 (>= 1:1.1)",
+      "libxext6",
+      "libxfixes3",
+      "libxi6 (>= 2:1.2.99.4)",
+      "libxrandr2 (>= 2:1.2.99.3)",
+      "libxrender1",
+      "libxtst6",
+      "zlib1g (>= 1:1.2.9.dfsg)"
+    ],
+    "recommends": [
+      "libcanberra0",
+      "libdbusmenu-glib4",
+      "libdbusmenu-gtk3-4"
+    ],
+    "installed": false
+  }
+]
