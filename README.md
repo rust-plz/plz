@@ -1,6 +1,6 @@
 # plz
 A polite, Rust-powered Arch Linux package manager.  
-*For newbies who want to play with fire… politely.*
+*For Arch newbies that dont wanna touch pacman just yet.*
 
 ---
 
